@@ -1,3 +1,5 @@
+# \SILAHKAN INSTALL DULU DAN JALANKAN nodemon index pada terminal dan jalankan di terminal
+
 curl -X POST http://localhost:3000/login \
      -H "Content-Type: application/json" \
      -d '{"username": "wahyu", "password": "wahyu"}'
@@ -14,3 +16,22 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3000/api_siswa
+
+
+
+PUT http://localhost:3000/api_siswa
+Content-Type: application/json
+
+{
+    "nama": "John Doe",
+    "alamat": "Jl. Contoh No. 123",
+    "status": "Aktif"
+}
+
+
+
+
+
+///MASUKKAN PAYLOAD USERNAME PASSWORD DAPATI  DULU TOKENNYA
+
+# {"username": "wahyu", "password": "wahyu"}'
